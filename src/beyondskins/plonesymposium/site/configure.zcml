@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="beyondskins.plonesymposium.site">
+
+    <includeDependencies package="." />
+
+    <plone:static directory="themes/beyondskins.plonesymposium.site"
+                  type="theme" />
+
+</configure>

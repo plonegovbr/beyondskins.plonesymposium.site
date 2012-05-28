@@ -1,0 +1,5 @@
+Credits
+-------
+
+Development of this package was sponsored by `Simples Consultoria
+<http://www.simplesconsultoria.com.br/>`_.
