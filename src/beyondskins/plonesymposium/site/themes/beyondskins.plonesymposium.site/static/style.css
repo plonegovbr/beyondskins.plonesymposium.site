@@ -96,6 +96,8 @@ dl.portlet dd {
 	padding: 0 5%
 }
 
+#portal-column-two .portlet-static-destaque-do-topo {display: none;}
+
 div.managePortletsLink, a.managePortletsFallback, .portletWrapper {clear: both;}
 
 /*********** Responsive Design Magic ***********/

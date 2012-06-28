@@ -13,13 +13,13 @@
     <drop css:content="head link[rel='apple-touch-icon']" />    
     <before css:content="head link" css:theme="head link" />    
     <replace css:content="head title" css:theme="head title" />    
-	<before css:content="head script" css:theme="head script" />
+    <before css:content="head script" css:theme="head script" />
     <copy css:content="head base" css:theme="head base" />    
     
     <!--Content-->
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
-	<copy attributes="role" css:content="content" css:theme="contentspace" />
+    <copy attributes="role" css:content="content" css:theme="contentspace" />
     <replace css:content="#portal-columns" css:theme="#content" />
     
     <!--Viewlets-->
@@ -30,13 +30,13 @@
     
     <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" />
     
-    
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
     <replace css:content-children="#portal-footer" css:theme="#footer-info" />   
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />  
     
-
     <!--Portlets-->
+    <replace css:content=".portlet-static-destaque-do-topo"  css:theme="#avisos span" />
+    
     <!-- Control Panel -->
     <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
     
