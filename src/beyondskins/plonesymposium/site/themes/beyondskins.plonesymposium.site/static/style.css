@@ -28,6 +28,7 @@ h2, h3, h4, h5, h6 {color: #0f75bc;}
 #footer {background: #cecece; color: #000000;}
 #footer a:link, #footer a:hover, #footer a:visited {color:#000;}
 
+img.image-left, img.image-right {border: 0 none;}
 
 /****************** Basic Stuff ***********************/
 
